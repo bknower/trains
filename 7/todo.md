@@ -1,0 +1,10 @@
+- [x] ejectPlayer should take in a parameter for the player to eject, in case a player is ejected when it's not their turn (like in setup)
+- [x] Points calculation should count segments in each connection, and not just total connections
+- [x] Referee should handle timeouts
+- [x] Referee should handle players that throw exceptions
+- [x] Abstract player out into trait and change old Player class to AIPlayer
+- [x] Score calculation should be split into multiple helper methods
+- [x] Write tests for getting scores
+- [x] Write tests for everything in utils
+- [x] Move JSON parsing to Utils
+- [x] Move various numbers into constants

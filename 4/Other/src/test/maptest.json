@@ -1,0 +1,27 @@
+{
+  "width": 800,
+  "height": 800,
+  "cities": [["Apple", [100, 100]],
+    ["Boston", [300, 100]],
+    ["Campfire", [100, 800]],
+    ["Detroit", [500, 500]],
+    ["Ello", [100, 500]],
+    ["Firefighter", [200, 500]],
+    ["Goonies", [600, 600]]
+  ],
+  "connections": {
+    "Apple" : {
+      "Boston": {"red":  5, "blue": 4, "green": 3, "white": 4},
+      "Detroit": {"red": 4}
+    },
+    "Boston" : {
+      "Detroit": {"red":  4}
+    },
+    "Campfire" : {
+      "Detroit": {"blue":  5}
+    },
+    "Ello" : {
+      "Firefighter": {"white":  4}
+    }
+  }
+}

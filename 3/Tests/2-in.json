@@ -1,0 +1,12 @@
+"Dallas"
+"Boston"
+{
+  "width": 500,
+  "height": 500,
+  "cities": [["Boston", [100, 400]], ["New York", [300, 300]], ["Dallas", [50, 400]], ["Atlanta", [400, 300]]],
+  "connections": {
+    "Boston" : {
+      "New York": {"blue":  4}
+    }
+  }
+}

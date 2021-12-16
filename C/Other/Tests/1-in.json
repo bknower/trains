@@ -1,0 +1,11 @@
+{
+  "element1": "dingus",
+  "element2": 12345,
+  "element2.5": 1.23,
+  "element3": [6789, "testing"],
+  "element4": true,
+  "element5": null,
+  "element6": {
+    "subelement": "bottom"
+  }
+}

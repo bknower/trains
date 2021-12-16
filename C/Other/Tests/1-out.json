@@ -1,0 +1,11 @@
+{
+  "element1":"sugnid",
+  "element2":-12345,
+  "element2.5":-1.23,
+  "element3":["gnitset",-6789],
+  "element4":false,
+  "element5":null,
+  "element6":{
+    "subelement":"mottob"
+  }
+}

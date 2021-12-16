@@ -1,0 +1,61 @@
+{
+  "width": 800,
+  "height": 800,
+  "cities": [["Atlanta", [700, 550]],
+    ["Boston", [700, 100]],
+    ["Chicago", [200, 125]],
+    ["Detroit", [450, 100]],
+    ["El Paso", [400, 550]],
+    ["Fresno", [0, 475]],
+    ["Grand Rapids", [350, 0]],
+    ["Huntsville", [800, 500]],
+    ["Orlando", [650, 800]],
+    ["Washington, D.C.", [400, 400]]
+  ],
+  "connections": {
+    "Atlanta" : {
+      "Orlando": {"red":  3}
+    },
+    "Boston" : {
+      "Detroit": {"blue":  4, "red":  4},
+      "Washington, D.C.": {"green":  5, "blue":  5, "red":  5, "white":  5}
+    },
+    "Chicago" : {
+      "Fresno": {"blue":  5},
+      "Grand Rapids": {"blue":  3, "green": 3},
+      "Washington, D.C.": {"red":  5, "green": 4, "white": 3}
+    },
+    "Detroit" : {
+      "Grand Rapids": {"green":  3},
+      "Washington, D.C.": {"white": 5, "blue": 4}
+    },
+    "El Paso" : {
+      "Huntsville": {"white":  4, "green":  5},
+      "Orlando": {"blue": 4}
+    },
+    "Fresno" : {
+      "Washington, D.C.": {"green":  5}
+    },
+    "Huntsville" : {
+      "Orlando": {"red":  3, "blue": 3}
+    }
+  }
+}
+{
+  "this": {
+    "destination1": ["Chicago", "Detroit"],
+    "destination2": ["El Paso", "Orlando"],
+    "rails": 16,
+    "cards": {
+      "red": 1,
+      "white": 2,
+      "blue":  1,
+      "green": 2
+    },
+    "acquired": []
+  },
+  "acquired": [
+    [["Fresno", "Washington, D.C.", "green", 5], ["Huntsville", "Orlando", "red", 3]],
+    [["Huntsville", "Orlando", "blue", 3]],
+    []]
+}

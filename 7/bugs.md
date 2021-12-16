@@ -1,0 +1,9 @@
+- we only ever eject the current player in ejectPlayer, which is a problem in setup because players can be ejected when it's not their turn
+  - fixed by adding a name parameter to ejectPlayer, and in the referee's setup method, we would call eject Player with the name of the player who is currently being set up
+  - https://github.ccs.neu.edu/CS4500-F21/lolo/commit/423f79829cddfb1b3c18b70db904cd0072e1dedb#diff-1e4b163ea2e561fba9e553c8c47db79e51de5c2a898de51697d36921b8fb3d86L141
+  - Trains/Admin/RefereeState.scala
+  - added tests to catch this bug: [here](https://github.ccs.neu.edu/CS4500-F21/lolo/commit/8ab3394b14592e2dd668b14ca43bf98ccf75edc1)
+- we granted 1 point per acquired connection instead of 1 point per segment in each connection
+  - we changed this to be correct
+  - https://github.ccs.neu.edu/CS4500-F21/lolo/commit/423f79829cddfb1b3c18b70db904cd0072e1dedb#diff-1e4b163ea2e561fba9e553c8c47db79e51de5c2a898de51697d36921b8fb3d86L141
+  - Trains/Admin/RefereeState.scala

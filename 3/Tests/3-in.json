@@ -1,0 +1,19 @@
+"Tampa"
+"Denver"
+{
+  "width": 500,
+  "height": 500,
+  "cities": [["Denver", [50, 100]], ["Boston", [100, 400]], ["New York", [300, 300]], ["Tampa", [400, 350]]],
+  "connections": {
+    "Boston" : {
+      "New York": {"blue":  4},
+      "Tampa": {"green":  5}
+    },
+    "Denver" : {
+      "New York": {"red":  5}
+    },
+    "New York": {
+      "Tampa": {"white": 3}
+    }
+  }
+}

@@ -1,0 +1,4266 @@
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/clearwater/Tests/1-in.json /home/vagrant/new-repos/8/clearwater/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20591
+(testing /home/vagrant/new-repos/8/clearwater/Tests/3-in.json /home/vagrant/new-repos/8/clearwater/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20605
+((/home/vagrant/new-repos/8/clearwater/Tests/1-in.json /home/vagrant/new-repos/8/clearwater/Tests/1-out.json) (/home/vagrant/new-repos/8/clearwater/Tests/3-in.json /home/vagrant/new-repos/8/clearwater/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/franklin/Tests/1-in.json /home/vagrant/new-repos/8/franklin/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20620
+(testing /home/vagrant/new-repos/8/franklin/Tests/2-in.json /home/vagrant/new-repos/8/franklin/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20633
+(testing /home/vagrant/new-repos/8/franklin/Tests/3-in.json /home/vagrant/new-repos/8/franklin/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20647
+((/home/vagrant/new-repos/8/franklin/Tests/1-in.json /home/vagrant/new-repos/8/franklin/Tests/1-out.json) (/home/vagrant/new-repos/8/franklin/Tests/2-in.json /home/vagrant/new-repos/8/franklin/Tests/2-out.json) (/home/vagrant/new-repos/8/franklin/Tests/3-in.json /home/vagrant/new-repos/8/franklin/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/gateway-arch/Tests/1-in.json /home/vagrant/new-repos/8/gateway-arch/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20663
+(testing /home/vagrant/new-repos/8/gateway-arch/Tests/3-in.json /home/vagrant/new-repos/8/gateway-arch/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20676
+((/home/vagrant/new-repos/8/gateway-arch/Tests/1-in.json /home/vagrant/new-repos/8/gateway-arch/Tests/1-out.json) (/home/vagrant/new-repos/8/gateway-arch/Tests/3-in.json /home/vagrant/new-repos/8/gateway-arch/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/grand-mesa/Tests/1-in.json /home/vagrant/new-repos/8/grand-mesa/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20692
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("Boston" (10 20))
+            ("Baltimore" (50 50))
+            ("Chicago" (200 80))
+            ("Philadelphia" (400 100))
+            ("NYC" (100 200))
+            ("Los Angeles" (100 40))
+            ("Seattle" (400 400))
+            ("Portland" (600 400))))
+          (connections
+           .
+           #hasheq((Baltimore . #hasheq((Boston . #hasheq((white . 3)))))
+                   (Boston
+                    .
+                    #hasheq((NYC
+                             .
+                             #hasheq((blue . 3)
+                                     (green . 4)
+                                     (red . 4)
+                                     (white . 5)))
+                            (Philadelphia . #hasheq((green . 4)))))
+                   (Chicago . #hasheq((NYC . #hasheq((blue . 5) (green . 5)))))
+                   (|Los Angeles|
+                    .
+                    #hasheq((Portland . #hasheq((green . 4)))
+                            (Seattle . #hasheq((red . 3)))))
+                   (NYC . #hasheq((Philadelphia . #hasheq((red . 5)))))
+                   (Portland . #hasheq((Seattle . #hasheq((red . 3)))))))
+          (height . 500)
+          (width . 800))
+  (("anna" "Buy-Now") ("bob" "Buy-Now"))
+  ("blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "blue"))
+(*** expected)
+'(((("bob") ("anna")) ()))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (((("anna") ("bob")) ()))))
+
+
+(testing /home/vagrant/new-repos/8/grand-mesa/Tests/2-in.json /home/vagrant/new-repos/8/grand-mesa/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20706
+(testing /home/vagrant/new-repos/8/grand-mesa/Tests/3-in.json /home/vagrant/new-repos/8/grand-mesa/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20719
+((/home/vagrant/new-repos/8/grand-mesa/Tests/2-in.json /home/vagrant/new-repos/8/grand-mesa/Tests/2-out.json) (/home/vagrant/new-repos/8/grand-mesa/Tests/3-in.json /home/vagrant/new-repos/8/grand-mesa/Tests/3-out.json))
+((passed 2) (total 3) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/great-basin/Tests/2-in.json /home/vagrant/new-repos/8/great-basin/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20735
+(testing /home/vagrant/new-repos/8/great-basin/Tests/3-in.json /home/vagrant/new-repos/8/great-basin/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20748
+((/home/vagrant/new-repos/8/great-basin/Tests/2-in.json /home/vagrant/new-repos/8/great-basin/Tests/2-out.json) (/home/vagrant/new-repos/8/great-basin/Tests/3-in.json /home/vagrant/new-repos/8/great-basin/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/great-falls/Tests/1-in.json /home/vagrant/new-repos/8/great-falls/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20764
+(testing /home/vagrant/new-repos/8/great-falls/Tests/2-in.json /home/vagrant/new-repos/8/great-falls/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20777
+(testing /home/vagrant/new-repos/8/great-falls/Tests/3-in.json /home/vagrant/new-repos/8/great-falls/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20791
+((/home/vagrant/new-repos/8/great-falls/Tests/1-in.json /home/vagrant/new-repos/8/great-falls/Tests/1-out.json) (/home/vagrant/new-repos/8/great-falls/Tests/2-in.json /home/vagrant/new-repos/8/great-falls/Tests/2-out.json) (/home/vagrant/new-repos/8/great-falls/Tests/3-in.json /home/vagrant/new-repos/8/great-falls/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/gunnison/Tests/1-in.json /home/vagrant/new-repos/8/gunnison/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20807
+(testing /home/vagrant/new-repos/8/gunnison/Tests/2-in.json /home/vagrant/new-repos/8/gunnison/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20821
+(testing /home/vagrant/new-repos/8/gunnison/Tests/3-in.json /home/vagrant/new-repos/8/gunnison/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20834
+((/home/vagrant/new-repos/8/gunnison/Tests/1-in.json /home/vagrant/new-repos/8/gunnison/Tests/1-out.json) (/home/vagrant/new-repos/8/gunnison/Tests/2-in.json /home/vagrant/new-repos/8/gunnison/Tests/2-out.json) (/home/vagrant/new-repos/8/gunnison/Tests/3-in.json /home/vagrant/new-repos/8/gunnison/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/haleakal/Tests/1-in.json /home/vagrant/new-repos/8/haleakal/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20850
+(testing /home/vagrant/new-repos/8/haleakal/Tests/3-in.json /home/vagrant/new-repos/8/haleakal/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20864
+((/home/vagrant/new-repos/8/haleakal/Tests/1-in.json /home/vagrant/new-repos/8/haleakal/Tests/1-out.json) (/home/vagrant/new-repos/8/haleakal/Tests/3-in.json /home/vagrant/new-repos/8/haleakal/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/hammond-pond/Tests/1-in.json /home/vagrant/new-repos/8/hammond-pond/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20880
+(testing /home/vagrant/new-repos/8/hammond-pond/Tests/3-in.json /home/vagrant/new-repos/8/hammond-pond/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20893
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("BOS" (276 34))
+            ("BWI" (114 324))
+            ("IAD" (372 319))
+            ("JFK" (226 216))
+            ("LGA" (387 183))
+            ("MYR" (276 410))
+            ("PHL" (222 22))
+            ("PVD" (67 95))))
+          (connections
+           .
+           #hasheq((BOS
+                    .
+                    #hasheq((JFK . #hasheq((red . 4)))
+                            (PHL . #hasheq((blue . 5)))))
+                   (BWI . #hasheq((MYR . #hasheq((blue . 4) (green . 4)))))
+                   (IAD
+                    .
+                    #hasheq((MYR . #hasheq((green . 3)))
+                            (PHL . #hasheq((blue . 4)))))
+                   (JFK . #hasheq((PVD . #hasheq((white . 5)))))
+                   (PHL . #hasheq((PVD . #hasheq((blue . 4) (red . 3)))))))
+          (height . 500)
+          (width . 500))
+  (("Graham" "Hold-10") ("Brian" "Buy-Now") ("Eve" "Cheat"))
+  ("red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"))
+(*** expected)
+'(((("Brian") ("Graham")) ("Eve")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (((("Graham") ("Brian")) ("Eve")))))
+
+
+((/home/vagrant/new-repos/8/hammond-pond/Tests/1-in.json /home/vagrant/new-repos/8/hammond-pond/Tests/1-out.json))
+((passed 1) (total 2) (partial-score 1))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/hampton-ponds/Tests/1-in.json /home/vagrant/new-repos/8/hampton-ponds/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20909
+(testing /home/vagrant/new-repos/8/hampton-ponds/Tests/2-in.json /home/vagrant/new-repos/8/hampton-ponds/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20922
+(testing /home/vagrant/new-repos/8/hampton-ponds/Tests/3-in.json /home/vagrant/new-repos/8/hampton-ponds/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20936
+((/home/vagrant/new-repos/8/hampton-ponds/Tests/1-in.json /home/vagrant/new-repos/8/hampton-ponds/Tests/1-out.json) (/home/vagrant/new-repos/8/hampton-ponds/Tests/2-in.json /home/vagrant/new-repos/8/hampton-ponds/Tests/2-out.json) (/home/vagrant/new-repos/8/hampton-ponds/Tests/3-in.json /home/vagrant/new-repos/8/hampton-ponds/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/harold-parker/Tests/1-in.json /home/vagrant/new-repos/8/harold-parker/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20952
+(testing /home/vagrant/new-repos/8/harold-parker/Tests/2-in.json /home/vagrant/new-repos/8/harold-parker/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20965
+(testing /home/vagrant/new-repos/8/harold-parker/Tests/3-in.json /home/vagrant/new-repos/8/harold-parker/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20979
+((/home/vagrant/new-repos/8/harold-parker/Tests/1-in.json /home/vagrant/new-repos/8/harold-parker/Tests/1-out.json) (/home/vagrant/new-repos/8/harold-parker/Tests/2-in.json /home/vagrant/new-repos/8/harold-parker/Tests/2-out.json) (/home/vagrant/new-repos/8/harold-parker/Tests/3-in.json /home/vagrant/new-repos/8/harold-parker/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/helena/Tests/1-in.json /home/vagrant/new-repos/8/helena/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 20995
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("Alcatraz" (0 400))
+            ("Boston" (700 50))
+            ("Houston" (300 425))
+            ("Los Angeles" (50 300))
+            ("New York" (550 100))
+            ("San Francisco" (50 150))))
+          (connections
+           .
+           #hasheq((Boston
+                    .
+                    #hasheq((|New York|
+                             .
+                             #hasheq((blue . 4) (red . 5) (white . 3)))))
+                   (Houston . #hasheq((|Los Angeles| . #hasheq((green . 5)))))
+                   (|Los Angeles|
+                    .
+                    #hasheq((|San Francisco| . #hasheq((red . 4)))))
+                   (|New York|
+                    .
+                    #hasheq((|San Francisco|
+                             .
+                             #hasheq((blue . 4) (green . 3)))))))
+          (height . 800)
+          (width . 800))
+  (("connie" "Hold-10") ("alexis" "Buy-Now") ("cheater" "Cheat"))
+  ("blue"
+   "green"
+   "white"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "white"))
+(*** expected)
+'(((("alexis") ("connie")) ("cheater")))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (((("connie") ("alexis")) ("cheater")))))
+
+
+(testing /home/vagrant/new-repos/8/helena/Tests/2-in.json /home/vagrant/new-repos/8/helena/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21009
+((/home/vagrant/new-repos/8/helena/Tests/2-in.json /home/vagrant/new-repos/8/helena/Tests/2-out.json))
+((passed 1) (total 2) (partial-score 1))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/hemlock-gorge/Tests/3-in.json /home/vagrant/new-repos/8/hemlock-gorge/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21024
+((/home/vagrant/new-repos/8/hemlock-gorge/Tests/3-in.json /home/vagrant/new-repos/8/hemlock-gorge/Tests/3-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/hiawatha/Tests/1-in.json /home/vagrant/new-repos/8/hiawatha/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21039
+(testing /home/vagrant/new-repos/8/hiawatha/Tests/2-in.json /home/vagrant/new-repos/8/hiawatha/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21053
+(testing /home/vagrant/new-repos/8/hiawatha/Tests/3-in.json /home/vagrant/new-repos/8/hiawatha/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21067
+((/home/vagrant/new-repos/8/hiawatha/Tests/1-in.json /home/vagrant/new-repos/8/hiawatha/Tests/1-out.json) (/home/vagrant/new-repos/8/hiawatha/Tests/2-in.json /home/vagrant/new-repos/8/hiawatha/Tests/2-out.json) (/home/vagrant/new-repos/8/hiawatha/Tests/3-in.json /home/vagrant/new-repos/8/hiawatha/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/humboldt/Tests/1-in.json /home/vagrant/new-repos/8/humboldt/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21083
+(testing /home/vagrant/new-repos/8/humboldt/Tests/2-in.json /home/vagrant/new-repos/8/humboldt/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21097
+(testing /home/vagrant/new-repos/8/humboldt/Tests/3-in.json /home/vagrant/new-repos/8/humboldt/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21111
+((/home/vagrant/new-repos/8/humboldt/Tests/1-in.json /home/vagrant/new-repos/8/humboldt/Tests/1-out.json) (/home/vagrant/new-repos/8/humboldt/Tests/2-in.json /home/vagrant/new-repos/8/humboldt/Tests/2-out.json) (/home/vagrant/new-repos/8/humboldt/Tests/3-in.json /home/vagrant/new-repos/8/humboldt/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/huron/Tests/1-in.json /home/vagrant/new-repos/8/huron/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21127
+(testing /home/vagrant/new-repos/8/huron/Tests/2-in.json /home/vagrant/new-repos/8/huron/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21141
+((/home/vagrant/new-repos/8/huron/Tests/1-in.json /home/vagrant/new-repos/8/huron/Tests/1-out.json) (/home/vagrant/new-repos/8/huron/Tests/2-in.json /home/vagrant/new-repos/8/huron/Tests/2-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/indiana-dunes/Tests/1-in.json /home/vagrant/new-repos/8/indiana-dunes/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21156
+(testing /home/vagrant/new-repos/8/indiana-dunes/Tests/2-in.json /home/vagrant/new-repos/8/indiana-dunes/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21170
+(testing /home/vagrant/new-repos/8/indiana-dunes/Tests/3-in.json /home/vagrant/new-repos/8/indiana-dunes/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21183
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("Los Angeles" (40 10))
+            ("San Diego" (120 50))
+            ("Tahoe" (60 130))
+            ("Vancouver" (70 150))
+            ("Denver" (10 80))
+            ("Lawrence" (140 90))
+            ("Cambridge" (30 30))
+            ("Cape Cod" (110 110))
+            ("Newton" (150 190))))
+          (connections
+           .
+           #hasheq((Cambridge
+                    .
+                    #hasheq((|Cape Cod| . #hasheq((green . 4) (red . 3)))))
+                   (|Cape Cod| . #hasheq((Newton . #hasheq((blue . 3)))))
+                   (Denver
+                    .
+                    #hasheq((Lawrence . #hasheq((green . 3)))
+                            (Vancouver . #hasheq((white . 3)))))
+                   (|Los Angeles|
+                    .
+                    #hasheq((Newton . #hasheq((white . 3)))
+                            (|San Diego|
+                             .
+                             #hasheq((blue . 4) (red . 3) (white . 4)))
+                            (Tahoe . #hasheq((green . 5)))))))
+          (height . 800)
+          (width . 800))
+  (("Harry" "Hold-10")
+   ("Taylor" "Buy-Now")
+   ("Nick" "Cheat")
+   ("Schmidt" "Cheat")
+   ("Winston" "Hold-10")
+   ("Jess" "Buy-Now")
+   ("Cece" "Cheat"))
+  ("red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"))
+(*** expected)
+'(((("Jess") ("Harry") ("Winston") ("Taylor")) ("Cece" "Nick" "Schmidt")))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (((("Harry") ("Jess" "Taylor") ("Winston")) ("Cece" "Nick" "Schmidt")))))
+
+
+((/home/vagrant/new-repos/8/indiana-dunes/Tests/1-in.json /home/vagrant/new-repos/8/indiana-dunes/Tests/1-out.json) (/home/vagrant/new-repos/8/indiana-dunes/Tests/2-in.json /home/vagrant/new-repos/8/indiana-dunes/Tests/2-out.json))
+((passed 2) (total 3) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/inyo/Tests/1-in.json /home/vagrant/new-repos/8/inyo/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21199
+((/home/vagrant/new-repos/8/inyo/Tests/1-in.json /home/vagrant/new-repos/8/inyo/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/joshua-tree/Tests/1-in.json /home/vagrant/new-repos/8/joshua-tree/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21214
+(testing /home/vagrant/new-repos/8/joshua-tree/Tests/3-in.json /home/vagrant/new-repos/8/joshua-tree/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21228
+((/home/vagrant/new-repos/8/joshua-tree/Tests/1-in.json /home/vagrant/new-repos/8/joshua-tree/Tests/1-out.json) (/home/vagrant/new-repos/8/joshua-tree/Tests/3-in.json /home/vagrant/new-repos/8/joshua-tree/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/kaibab/Tests/1-in.json /home/vagrant/new-repos/8/kaibab/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21243
+((/home/vagrant/new-repos/8/kaibab/Tests/1-in.json /home/vagrant/new-repos/8/kaibab/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/kenai-fjords/Tests/1-in.json /home/vagrant/new-repos/8/kenai-fjords/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21258
+(testing /home/vagrant/new-repos/8/kenai-fjords/Tests/2-in.json /home/vagrant/new-repos/8/kenai-fjords/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21271
+((/home/vagrant/new-repos/8/kenai-fjords/Tests/1-in.json /home/vagrant/new-repos/8/kenai-fjords/Tests/1-out.json) (/home/vagrant/new-repos/8/kenai-fjords/Tests/2-in.json /home/vagrant/new-repos/8/kenai-fjords/Tests/2-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/kings-canyon/Tests/1-in.json /home/vagrant/new-repos/8/kings-canyon/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21287
+(testing /home/vagrant/new-repos/8/kings-canyon/Tests/2-in.json /home/vagrant/new-repos/8/kings-canyon/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21300
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("Boston" (800 100))
+            ("New York City" (700 300))
+            ("Newark" (680 350))
+            ("Houston" (500 650))
+            ("Dallas" (380 550))
+            ("San Diego" (100 750))
+            ("San Francisco" (120 500))
+            ("Seattle" (50 200))
+            ("Los Angeles" (50 500))))
+          (connections
+           .
+           #hasheq((Boston
+                    .
+                    #hasheq((|New York City|
+                             .
+                             #hasheq((blue . 5)
+                                     (green . 3)
+                                     (red . 4)
+                                     (white . 5)))))
+                   (Dallas
+                    .
+                    #hasheq((Houston . #hasheq((blue . 4) (green . 4)))
+                            (|Los Angeles| . #hasheq((white . 3)))))
+                   (|Los Angeles|
+                    .
+                    #hasheq((|San Diego| . #hasheq((blue . 5) (green . 3)))))
+                   (|New York City|
+                    .
+                    #hasheq((Newark . #hasheq((blue . 3) (white . 3)))))
+                   (|San Diego|
+                    .
+                    #hasheq((|San Francisco| . #hasheq((blue . 4) (white . 3)))
+                            (Seattle . #hasheq((red . 5)))))))
+          (height . 750)
+          (width . 800))
+  (("playerA" "Hold-10")
+   ("playerB" "Buy-Now")
+   ("playerC" "Hold-10")
+   ("playerD" "Buy-Now"))
+  ("blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "white"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "white"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "white"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "white"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "white"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "white"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "white"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "white"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "white"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "white"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "white"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "green"))
+(*** expected)
+'(((("playerA" "playerD") ("playerC") ("playerB")) ()))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (((("playerB") ("playerA") ("playerC") ("playerD")) ()))))
+
+
+(testing /home/vagrant/new-repos/8/kings-canyon/Tests/3-in.json /home/vagrant/new-repos/8/kings-canyon/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21314
+((/home/vagrant/new-repos/8/kings-canyon/Tests/1-in.json /home/vagrant/new-repos/8/kings-canyon/Tests/1-out.json) (/home/vagrant/new-repos/8/kings-canyon/Tests/3-in.json /home/vagrant/new-repos/8/kings-canyon/Tests/3-out.json))
+((passed 2) (total 3) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/kisatchie/Tests/1-in.json /home/vagrant/new-repos/8/kisatchie/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21330
+(testing /home/vagrant/new-repos/8/kisatchie/Tests/2-in.json /home/vagrant/new-repos/8/kisatchie/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21344
+(testing /home/vagrant/new-repos/8/kisatchie/Tests/3-in.json /home/vagrant/new-repos/8/kisatchie/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21358
+((/home/vagrant/new-repos/8/kisatchie/Tests/1-in.json /home/vagrant/new-repos/8/kisatchie/Tests/1-out.json) (/home/vagrant/new-repos/8/kisatchie/Tests/2-in.json /home/vagrant/new-repos/8/kisatchie/Tests/2-out.json) (/home/vagrant/new-repos/8/kisatchie/Tests/3-in.json /home/vagrant/new-repos/8/kisatchie/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/klamath/Tests/1-in.json /home/vagrant/new-repos/8/klamath/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21374
+((/home/vagrant/new-repos/8/klamath/Tests/1-in.json /home/vagrant/new-repos/8/klamath/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/kobuk-valley/Tests/1-in.json /home/vagrant/new-repos/8/kobuk-valley/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21389
+(testing /home/vagrant/new-repos/8/kobuk-valley/Tests/2-in.json /home/vagrant/new-repos/8/kobuk-valley/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21403
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("atlanta" (100 200))
+            ("austin" (111 111))
+            ("boston" (100 50))
+            ("nyc" (142 24))
+            ("seattle" (200 200))
+            ("sf" (120 249))
+            ("wash" (239 213))))
+          (connections
+           .
+           #hasheq((atlanta
+                    .
+                    #hasheq((austin
+                             .
+                             #hasheq((blue . 5) (green . 3) (white . 4)))
+                            (boston
+                             .
+                             #hasheq((blue . 5) (green . 3) (white . 4)))
+                            (nyc . #hasheq((blue . 5) (green . 3) (white . 4)))
+                            (seattle
+                             .
+                             #hasheq((blue . 4) (green . 5) (white . 3)))
+                            (sf . #hasheq((blue . 4) (green . 5) (white . 3)))
+                            (wash
+                             .
+                             #hasheq((blue . 4) (green . 5) (white . 3)))))))
+          (height . 300)
+          (width . 300))
+  (("personone" "Hold-10")
+   ("personetwo" "Buy-Now")
+   ("personthree" "Buy-Now")
+   ("personfour" "Hold-10")
+   ("personfive" "Hold-10")
+   ("personsix" "Cheat"))
+  ("blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"))
+(*** expected)
+'(((("personfive") ("personetwo") ("personone") ("personthree") ("personfour"))
+   ("personsix")))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (((("personthree") ("personfour" "personone") ("personfive") ("personetwo"))
+     ("personsix")))))
+
+
+(testing /home/vagrant/new-repos/8/kobuk-valley/Tests/3-in.json /home/vagrant/new-repos/8/kobuk-valley/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21417
+((/home/vagrant/new-repos/8/kobuk-valley/Tests/1-in.json /home/vagrant/new-repos/8/kobuk-valley/Tests/1-out.json) (/home/vagrant/new-repos/8/kobuk-valley/Tests/3-in.json /home/vagrant/new-repos/8/kobuk-valley/Tests/3-out.json))
+((passed 2) (total 3) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/kootenai/Tests/2-in.json /home/vagrant/new-repos/8/kootenai/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21432
+(testing /home/vagrant/new-repos/8/kootenai/Tests/3-in.json /home/vagrant/new-repos/8/kootenai/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21446
+((/home/vagrant/new-repos/8/kootenai/Tests/2-in.json /home/vagrant/new-repos/8/kootenai/Tests/2-out.json) (/home/vagrant/new-repos/8/kootenai/Tests/3-in.json /home/vagrant/new-repos/8/kootenai/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/lake-clark/Tests/2-in.json /home/vagrant/new-repos/8/lake-clark/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21461
+((/home/vagrant/new-repos/8/lake-clark/Tests/2-in.json /home/vagrant/new-repos/8/lake-clark/Tests/2-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/lassen/Tests/1-in.json /home/vagrant/new-repos/8/lassen/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21476
+(testing /home/vagrant/new-repos/8/lassen/Tests/2-in.json /home/vagrant/new-repos/8/lassen/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21490
+(testing /home/vagrant/new-repos/8/lassen/Tests/3-in.json /home/vagrant/new-repos/8/lassen/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21503
+((/home/vagrant/new-repos/8/lassen/Tests/1-in.json /home/vagrant/new-repos/8/lassen/Tests/1-out.json) (/home/vagrant/new-repos/8/lassen/Tests/2-in.json /home/vagrant/new-repos/8/lassen/Tests/2-out.json) (/home/vagrant/new-repos/8/lassen/Tests/3-in.json /home/vagrant/new-repos/8/lassen/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/leominster/Tests/2-in.json /home/vagrant/new-repos/8/leominster/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21519
+((/home/vagrant/new-repos/8/leominster/Tests/2-in.json /home/vagrant/new-repos/8/leominster/Tests/2-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/lincoln/Tests/1-in.json /home/vagrant/new-repos/8/lincoln/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21534
+(testing /home/vagrant/new-repos/8/lincoln/Tests/2-in.json /home/vagrant/new-repos/8/lincoln/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21547
+((/home/vagrant/new-repos/8/lincoln/Tests/1-in.json /home/vagrant/new-repos/8/lincoln/Tests/1-out.json) (/home/vagrant/new-repos/8/lincoln/Tests/2-in.json /home/vagrant/new-repos/8/lincoln/Tests/2-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/los-padres/Tests/1-in.json /home/vagrant/new-repos/8/los-padres/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21563
+(testing /home/vagrant/new-repos/8/los-padres/Tests/2-in.json /home/vagrant/new-repos/8/los-padres/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21576
+(testing /home/vagrant/new-repos/8/los-padres/Tests/3-in.json /home/vagrant/new-repos/8/los-padres/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21590
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("A" (20 50))
+            ("B" (200 50))
+            ("C" (30 500))
+            ("D" (600 500))
+            ("E" (0 0))))
+          (connections
+           .
+           #hasheq((A
+                    .
+                    #hasheq((B . #hasheq((red . 4)))
+                            (C . #hasheq((green . 5)))
+                            (D . #hasheq((blue . 3)))))
+                   (C
+                    .
+                    #hasheq((D . #hasheq((red . 4)))
+                            (E . #hasheq((white . 3)))))))
+          (height . 800)
+          (width . 800))
+  (("John" "Buy-Now") ("Sally" "Buy-Now") ("Sam" "Buy-Now"))
+  ("red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "blue"
+   "white"))
+(*** expected)
+'(((("Sam") ("John") ("Sally")) ()))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (((("Sam") ("Sally") ("John")) ()))))
+
+
+((/home/vagrant/new-repos/8/los-padres/Tests/1-in.json /home/vagrant/new-repos/8/los-padres/Tests/1-out.json) (/home/vagrant/new-repos/8/los-padres/Tests/2-in.json /home/vagrant/new-repos/8/los-padres/Tests/2-out.json))
+((passed 2) (total 3) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/malheur/Tests/1-in.json /home/vagrant/new-repos/8/malheur/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21606
+(testing /home/vagrant/new-repos/8/malheur/Tests/2-in.json /home/vagrant/new-repos/8/malheur/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21620
+(testing /home/vagrant/new-repos/8/malheur/Tests/3-in.json /home/vagrant/new-repos/8/malheur/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21633
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("cityA" (100 200))
+            ("cityB" (400 300))
+            ("cityC" (200 100))
+            ("cityD" (300 100))
+            ("cityE" (350 100))
+            ("cityF" (351 100))
+            ("cityG" (352 100))
+            ("cityH" (353 100))
+            ("cityI" (354 100))
+            ("cityJ" (355 100))))
+          (connections
+           .
+           #hasheq((cityA
+                    .
+                    #hasheq((cityB . #hasheq((blue . 4)))
+                            (cityJ . #hasheq((blue . 4)))))
+                   (cityB . #hasheq((cityC . #hasheq((blue . 4)))))
+                   (cityC . #hasheq((cityD . #hasheq((blue . 4)))))
+                   (cityD . #hasheq((cityE . #hasheq((blue . 4)))))
+                   (cityE . #hasheq((cityF . #hasheq((blue . 4)))))
+                   (cityF . #hasheq((cityG . #hasheq((blue . 4)))))
+                   (cityG . #hasheq((cityH . #hasheq((blue . 4)))))
+                   (cityH . #hasheq((cityI . #hasheq((blue . 4)))))
+                   (cityI . #hasheq((cityJ . #hasheq((blue . 4)))))))
+          (height . 400)
+          (width . 500))
+  (("a" "Buy-Now")
+   ("b" "Buy-Now")
+   ("c" "Cheat")
+   ("d" "Cheat")
+   ("e" "Buy-Now")
+   ("f" "Cheat")
+   ("g" "Buy-Now")
+   ("h" "Cheat"))
+  ("blue"
+   "blue"
+   "blue"
+   "blue"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "blue"
+   "blue"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "blue"
+   "blue"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "blue"
+   "blue"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "blue"
+   "blue"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "blue"
+   "blue"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "blue"
+   "blue"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "blue"
+   "blue"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "blue"
+   "blue"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "blue"
+   "blue"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "blue"
+   "blue"
+   "green"
+   "green"))
+(*** expected)
+'(((("a") ("b" "e" "g")) ("c" "d" "f" "h")))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (((("b") ("a" "e" "g")) ("c" "d" "f" "h")))))
+
+
+((/home/vagrant/new-repos/8/malheur/Tests/1-in.json /home/vagrant/new-repos/8/malheur/Tests/1-out.json) (/home/vagrant/new-repos/8/malheur/Tests/2-in.json /home/vagrant/new-repos/8/malheur/Tests/2-out.json))
+((passed 2) (total 3) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/mammoth-cave/Tests/1-in.json /home/vagrant/new-repos/8/mammoth-cave/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21649
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("Albany" (700 100))
+            ("Boston" (800 75))
+            ("Charleston" (700 400))
+            ("Denver" (350 275))
+            ("El Paso" (400 500))
+            ("Fargo" (400 50))
+            ("Grand Rapids" (500 150))
+            ("Houston" (500 500))
+            ("Indianapolis" (500 200))
+            ("Jacksonville" (650 500))
+            ("Knoxville" (600 400))
+            ("Los Angeles" (100 475))
+            ("Memphis" (550 400))
+            ("New Orleans" (550 500))
+            ("Omaha" (500 250))
+            ("Portland" (50 75))
+            ("Quincy" (800 80))
+            ("Reno" (125 300))
+            ("Seattle" (50 50))
+            ("Tucson" (250 500))))
+          (connections
+           .
+           #hasheq((Albany
+                    .
+                    #hasheq((Boston . #hasheq((red . 5) (white . 4)))
+                            (Seattle . #hasheq((blue . 4)))
+                            (Tucson . #hasheq((red . 4)))))
+                   (Boston
+                    .
+                    #hasheq((Charleston . #hasheq((red . 5)))
+                            (Denver . #hasheq((red . 3)))
+                            (Tucson . #hasheq((white . 3)))))
+                   (Charleston
+                    .
+                    #hasheq((Denver . #hasheq((blue . 4)))
+                            (|El Paso| . #hasheq((green . 4)))))
+                   (Denver
+                    .
+                    #hasheq((|El Paso| . #hasheq((red . 3)))
+                            (Fargo . #hasheq((red . 5)))))
+                   (|El Paso|
+                    .
+                    #hasheq((Fargo . #hasheq((blue . 5)))
+                            (Houston . #hasheq((red . 3)))))
+                   (Fargo
+                    .
+                    #hasheq((|Grand Rapids| . #hasheq((blue . 3)))
+                            (Houston . #hasheq((red . 5)))))
+                   (|Grand Rapids|
+                    .
+                    #hasheq((Houston . #hasheq((red . 5)))
+                            (Indianapolis . #hasheq((red . 3)))))
+                   (Houston
+                    .
+                    #hasheq((Indianapolis . #hasheq((red . 5)))
+                            (Jacksonville . #hasheq((red . 3)))))
+                   (Indianapolis
+                    .
+                    #hasheq((Jacksonville . #hasheq((green . 5)))
+                            (Knoxville . #hasheq((green . 3)))))
+                   (Jacksonville
+                    .
+                    #hasheq((Knoxville . #hasheq((white . 3)))
+                            (|Los Angeles| . #hasheq((red . 5)))))
+                   (Knoxville
+                    .
+                    #hasheq((|Los Angeles| . #hasheq((white . 5)))
+                            (Memphis . #hasheq((green . 3)))))
+                   (|Los Angeles|
+                    .
+                    #hasheq((Memphis . #hasheq((red . 4)))
+                            (|New Orleans| . #hasheq((blue . 3)))))
+                   (Memphis
+                    .
+                    #hasheq((|New Orleans| . #hasheq((green . 5)))
+                            (Omaha . #hasheq((green . 4)))))
+                   (|New Orleans|
+                    .
+                    #hasheq((Omaha . #hasheq((red . 4)))
+                            (Portland . #hasheq((blue . 5)))))
+                   (Omaha
+                    .
+                    #hasheq((Portland . #hasheq((red . 3)))
+                            (Quincy . #hasheq((red . 5)))))
+                   (Portland
+                    .
+                    #hasheq((Quincy . #hasheq((blue . 4)))
+                            (Reno . #hasheq((red . 4)))))
+                   (Quincy
+                    .
+                    #hasheq((Reno . #hasheq((red . 5)))
+                            (Seattle . #hasheq((white . 5)))))
+                   (Reno
+                    .
+                    #hasheq((Seattle . #hasheq((red . 4)))
+                            (Tucson . #hasheq((red . 3)))))
+                   (Seattle . #hasheq((Tucson . #hasheq((blue . 3)))))))
+          (height . 600)
+          (width . 800))
+  (("Andrew" "Hold-10")
+   ("Benjamin" "Cheat")
+   ("Christian" "Buy-Now")
+   ("David" "Hold-10")
+   ("Edward" "Buy-Now")
+   ("Francis" "Cheat")
+   ("Matthias" "Cheat"))
+  ("red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "blue"))
+(*** expected)
+'(((("Andrew") ("Christian") ("Edward") ("David"))
+   ("Benjamin" "Francis" "Matthias")))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (((("Edward") ("Andrew") ("Christian") ("David"))
+     ("Benjamin" "Francis" "Matthias")))))
+
+
+(testing /home/vagrant/new-repos/8/mammoth-cave/Tests/2-in.json /home/vagrant/new-repos/8/mammoth-cave/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21663
+((/home/vagrant/new-repos/8/mammoth-cave/Tests/2-in.json /home/vagrant/new-repos/8/mammoth-cave/Tests/2-out.json))
+((passed 1) (total 2) (partial-score 1))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/massasoit/Tests/1-in.json /home/vagrant/new-repos/8/massasoit/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21678
+((/home/vagrant/new-repos/8/massasoit/Tests/1-in.json /home/vagrant/new-repos/8/massasoit/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/maudslay/Tests/1-in.json /home/vagrant/new-repos/8/maudslay/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21693
+(testing /home/vagrant/new-repos/8/maudslay/Tests/2-in.json /home/vagrant/new-repos/8/maudslay/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21707
+(testing /home/vagrant/new-repos/8/maudslay/Tests/3-in.json /home/vagrant/new-repos/8/maudslay/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21721
+((/home/vagrant/new-repos/8/maudslay/Tests/1-in.json /home/vagrant/new-repos/8/maudslay/Tests/1-out.json) (/home/vagrant/new-repos/8/maudslay/Tests/2-in.json /home/vagrant/new-repos/8/maudslay/Tests/2-out.json) (/home/vagrant/new-repos/8/maudslay/Tests/3-in.json /home/vagrant/new-repos/8/maudslay/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/mendocino/Tests/1-in.json /home/vagrant/new-repos/8/mendocino/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21736
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("dallas" (432 460))
+            ("chicago" (441 347))
+            ("new york" (414 105))
+            ("san francisco" (114 431))
+            ("atlanta" (276 468))
+            ("boston" (293 327))
+            ("pittsburgh" (269 70))
+            ("houston" (365 145))
+            ("los angeles" (459 369))))
+          (connections
+           .
+           #hasheq((atlanta
+                    .
+                    #hasheq((boston . #hasheq((red . 5)))
+                            (dallas . #hasheq((blue . 3) (white . 3)))
+                            (houston . #hasheq((blue . 3)))
+                            (|los angeles| . #hasheq((blue . 5) (red . 4)))
+                            (|new york|
+                             .
+                             #hasheq((blue . 5) (red . 5) (white . 4)))
+                            (pittsburgh . #hasheq((blue . 5)))))
+                   (boston
+                    .
+                    #hasheq((dallas . #hasheq((green . 4)))
+                            (houston . #hasheq((white . 3)))
+                            (|los angeles|
+                             .
+                             #hasheq((blue . 3) (red . 5) (white . 3)))
+                            (pittsburgh . #hasheq((green . 4)))))
+                   (chicago
+                    .
+                    #hasheq((houston . #hasheq((red . 3)))
+                            (|los angeles|
+                             .
+                             #hasheq((green . 3) (red . 5) (white . 4)))
+                            (pittsburgh . #hasheq((green . 4)))
+                            (|san francisco|
+                             .
+                             #hasheq((red . 3) (white . 5)))))
+                   (dallas
+                    .
+                    #hasheq((houston . #hasheq((red . 3)))
+                            (|los angeles| . #hasheq((red . 3)))
+                            (pittsburgh
+                             .
+                             #hasheq((blue . 3) (green . 3) (white . 3)))
+                            (|san francisco| . #hasheq((green . 5)))))
+                   (houston
+                    .
+                    #hasheq((pittsburgh . #hasheq((white . 4)))
+                            (|san francisco| . #hasheq((white . 3)))))
+                   (|los angeles|
+                    .
+                    #hasheq((|new york|
+                             .
+                             #hasheq((blue . 3) (green . 4) (red . 4)))))
+                   (|new york|
+                    .
+                    #hasheq((|san francisco|
+                             .
+                             #hasheq((blue . 4) (green . 5) (white . 5)))))))
+          (height . 500)
+          (width . 500))
+  (("Kyle" "Buy-Now")
+   ("Michaela" "Buy-Now")
+   ("Ben" "Buy-Now")
+   ("Robert" "Hold-10"))
+  ("white"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "green"
+   "white"
+   "white"
+   "blue"
+   "white"
+   "white"
+   "red"
+   "red"
+   "red"
+   "blue"
+   "red"
+   "white"
+   "red"
+   "green"
+   "green"
+   "green"
+   "white"
+   "green"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "white"
+   "blue"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "green"
+   "blue"
+   "blue"
+   "blue"
+   "green"
+   "blue"
+   "white"
+   "green"
+   "white"
+   "green"
+   "green"
+   "green"
+   "white"
+   "blue"
+   "green"
+   "red"
+   "green"
+   "red"
+   "red"
+   "red"
+   "red"
+   "red"
+   "blue"
+   "blue"
+   "red"
+   "white"
+   "white"
+   "blue"
+   "white"
+   "white"
+   "white"
+   "green"
+   "green"
+   "green"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "green"
+   "green"
+   "red"
+   "red"
+   "blue"
+   "blue"
+   "blue"
+   "white"
+   "white"
+   "red"
+   "green"
+   "blue"
+   "blue"
+   "white"
+   "white"
+   "red"
+   "green"
+   "green"
+   "blue"
+   "blue"
+   "green"
+   "red"
+   "blue"
+   "green"
+   "red"
+   "green"
+   "green"
+   "blue"
+   "blue"
+   "blue"
+   "red"
+   "red"
+   "blue"
+   "blue"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "green"
+   "red"
+   "blue"
+   "green"
+   "green"
+   "blue"
+   "blue"
+   "blue"
+   "red"
+   "blue"
+   "red"
+   "red"
+   "blue"
+   "red"
+   "blue"
+   "blue"
+   "white"
+   "white"
+   "white"
+   "red"
+   "blue"
+   "white"
+   "white"
+   "red"
+   "white"
+   "green"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "blue"
+   "blue"
+   "green"
+   "blue"
+   "white"
+   "blue"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "blue"
+   "red"
+   "green"
+   "white"
+   "red"
+   "red"
+   "white"
+   "white"
+   "blue"
+   "blue"
+   "white"
+   "white"
+   "green"
+   "blue"
+   "green"
+   "blue"
+   "white"
+   "green"
+   "white"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "white"
+   "red"
+   "blue"
+   "red"
+   "blue"
+   "red"
+   "white"
+   "blue"
+   "white"
+   "red"
+   "red"
+   "red"
+   "white"
+   "red"
+   "green"
+   "green"
+   "red"
+   "red"
+   "green"
+   "red"
+   "white"
+   "green"
+   "red"
+   "white"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "white"
+   "white"
+   "blue"
+   "green"
+   "blue"
+   "white"
+   "white"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "red"
+   "red"
+   "green"
+   "green"
+   "red"
+   "white"
+   "blue"
+   "red"
+   "green"
+   "blue"
+   "white"
+   "red"
+   "white"
+   "green"
+   "red"
+   "green"
+   "blue"
+   "red"
+   "green"
+   "red"
+   "green"
+   "white"
+   "red"
+   "green"
+   "red"
+   "blue"
+   "blue"
+   "blue"
+   "white"
+   "red"))
+(*** expected)
+'(((("Robert") ("Kyle") ("Ben") ("Michaela")) ()))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (((("Kyle" "Michaela") ("Robert") ("Ben")) ()))))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/mesa-verde/Tests/1-in.json /home/vagrant/new-repos/8/mesa-verde/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21752
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("Boston" (700 100))
+            ("Chicago" (450 300))
+            ("LA" (150 400))
+            ("SF" (100 100))
+            ("Houston" (300 500))
+            ("Vegas" (100 500))
+            ("Boise" (20 34))))
+          (connections
+           .
+           #hasheq((Boise . #hasheq((SF . #hasheq((green . 4)))))
+                   (Boston . #hasheq((Chicago . #hasheq((red . 3)))))
+                   (Chicago . #hasheq((Houston . #hasheq((white . 5)))))
+                   (Houston . #hasheq((Vegas . #hasheq((red . 4)))))
+                   (LA
+                    .
+                    #hasheq((SF . #hasheq((blue . 5) (green . 5) (red . 4)))
+                            (Vegas . #hasheq((green . 3)))))
+                   (SF . #hasheq((Vegas . #hasheq((green . 4)))))))
+          (height . 600)
+          (width . 700))
+  (("IHaveaCoolName1" "Hold-10")
+   ("IHaveabadName1" "Buy-Now")
+   ("IHaveaCoolName2" "Hold-10")
+   ("IHaveabadName2" "Buy-Now")
+   ("IHaveaCoolName3" "Hold-10")
+   ("IHaveabadName3" "Buy-Now")
+   ("IHaveaCoolName4" "Hold-10")
+   ("IHaveabadName4" "Buy-Now"))
+  ("red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"
+   "red"
+   "blue"
+   "green"
+   "white"
+   "red"))
+(*** expected)
+'(((("IHaveabadName1")
+    ("IHaveaCoolName2" "IHaveaCoolName3")
+    ("IHaveabadName4")
+    ("IHaveaCoolName1" "IHaveaCoolName4" "IHaveabadName2")
+    ("IHaveabadName3"))
+   ()))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (((("IHaveaCoolName1")
+      ("IHaveabadName2" "IHaveabadName4")
+      ("IHaveabadName1")
+      ("IHaveaCoolName2" "IHaveaCoolName3" "IHaveaCoolName4" "IHaveabadName3"))
+     ()))))
+
+
+(testing /home/vagrant/new-repos/8/mesa-verde/Tests/2-in.json /home/vagrant/new-repos/8/mesa-verde/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21766
+(testing /home/vagrant/new-repos/8/mesa-verde/Tests/3-in.json /home/vagrant/new-repos/8/mesa-verde/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21779
+((/home/vagrant/new-repos/8/mesa-verde/Tests/2-in.json /home/vagrant/new-repos/8/mesa-verde/Tests/2-out.json) (/home/vagrant/new-repos/8/mesa-verde/Tests/3-in.json /home/vagrant/new-repos/8/mesa-verde/Tests/3-out.json))
+((passed 2) (total 3) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/modoc/Tests/1-in.json /home/vagrant/new-repos/8/modoc/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21795
+(testing /home/vagrant/new-repos/8/modoc/Tests/3-in.json /home/vagrant/new-repos/8/modoc/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21808
+((/home/vagrant/new-repos/8/modoc/Tests/1-in.json /home/vagrant/new-repos/8/modoc/Tests/1-out.json) (/home/vagrant/new-repos/8/modoc/Tests/3-in.json /home/vagrant/new-repos/8/modoc/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/mohawk-trail/Tests/2-in.json /home/vagrant/new-repos/8/mohawk-trail/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21824
+((/home/vagrant/new-repos/8/mohawk-trail/Tests/2-in.json /home/vagrant/new-repos/8/mohawk-trail/Tests/2-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/monongahela/Tests/1-in.json /home/vagrant/new-repos/8/monongahela/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21839
+(testing /home/vagrant/new-repos/8/monongahela/Tests/2-in.json /home/vagrant/new-repos/8/monongahela/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21853
+(testing /home/vagrant/new-repos/8/monongahela/Tests/3-in.json /home/vagrant/new-repos/8/monongahela/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21866
+((/home/vagrant/new-repos/8/monongahela/Tests/1-in.json /home/vagrant/new-repos/8/monongahela/Tests/1-out.json) (/home/vagrant/new-repos/8/monongahela/Tests/2-in.json /home/vagrant/new-repos/8/monongahela/Tests/2-out.json) (/home/vagrant/new-repos/8/monongahela/Tests/3-in.json /home/vagrant/new-repos/8/monongahela/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/monroe/Tests/2-in.json /home/vagrant/new-repos/8/monroe/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21882
+((/home/vagrant/new-repos/8/monroe/Tests/2-in.json /home/vagrant/new-repos/8/monroe/Tests/2-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/mount-baker/Tests/1-in.json /home/vagrant/new-repos/8/mount-baker/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21898
+(testing /home/vagrant/new-repos/8/mount-baker/Tests/2-in.json /home/vagrant/new-repos/8/mount-baker/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21911
+(testing /home/vagrant/new-repos/8/mount-baker/Tests/3-in.json /home/vagrant/new-repos/8/mount-baker/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21925
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("A" (100 100))
+            ("B" (300 100))
+            ("C" (100 200))
+            ("D" (300 300))
+            ("E" (400 400))
+            ("F" (500 500))))
+          (connections
+           .
+           #hasheq((A
+                    .
+                    #hasheq((B . #hasheq((green . 4) (red . 5) (white . 5)))))
+                   (B
+                    .
+                    #hasheq((C . #hasheq((green . 4)))
+                            (D . #hasheq((red . 5) (white . 3)))))
+                   (C . #hasheq((D . #hasheq((white . 3)))))
+                   (D . #hasheq((E . #hasheq((white . 4)))))
+                   (E . #hasheq((F . #hasheq((green . 5)))))))
+          (height . 800)
+          (width . 800))
+  (("Alice" "Hold-10") ("Bob" "Buy-Now") ("Cindy" "Cheat"))
+  ("red"
+   "red"
+   "red"
+   "red"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"))
+(*** expected)
+'(((("Alice" "Bob")) ("Cindy")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (((("Alice") ("Bob")) ("Cindy")))))
+
+
+((/home/vagrant/new-repos/8/mount-baker/Tests/1-in.json /home/vagrant/new-repos/8/mount-baker/Tests/1-out.json) (/home/vagrant/new-repos/8/mount-baker/Tests/2-in.json /home/vagrant/new-repos/8/mount-baker/Tests/2-out.json))
+((passed 2) (total 3) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/mount-grace/Tests/3-in.json /home/vagrant/new-repos/8/mount-grace/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21941
+((/home/vagrant/new-repos/8/mount-grace/Tests/3-in.json /home/vagrant/new-repos/8/mount-grace/Tests/3-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/mount-tom/Tests/2-in.json /home/vagrant/new-repos/8/mount-tom/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21957
+((/home/vagrant/new-repos/8/mount-tom/Tests/2-in.json /home/vagrant/new-repos/8/mount-tom/Tests/2-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/mystic-lakes/Tests/1-in.json /home/vagrant/new-repos/8/mystic-lakes/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21972
+(testing /home/vagrant/new-repos/8/mystic-lakes/Tests/2-in.json /home/vagrant/new-repos/8/mystic-lakes/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 21985
+((/home/vagrant/new-repos/8/mystic-lakes/Tests/1-in.json /home/vagrant/new-repos/8/mystic-lakes/Tests/1-out.json) (/home/vagrant/new-repos/8/mystic-lakes/Tests/2-in.json /home/vagrant/new-repos/8/mystic-lakes/Tests/2-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/lolo/8/xref)
+(testing /home/vagrant/new-repos/8/mystic-river/Tests/3-in.json /home/vagrant/new-repos/8/mystic-river/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/lolo/8/xref runs as 22000
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("A" (50 50))
+            ("B" (125 100))
+            ("C" (50 150))
+            ("D" (125 200))
+            ("E" (50 250))
+            ("F" (200 150))
+            ("G" (200 50))
+            ("H" (200 250))
+            ("I" (275 100))
+            ("J" (275 200))
+            ("K" (350 50))
+            ("L" (350 150))
+            ("M" (350 250))))
+          (connections
+           .
+           #hasheq((A
+                    .
+                    #hasheq((B . #hasheq((green . 4) (white . 5)))
+                            (C . #hasheq((green . 4) (white . 5)))))
+                   (B
+                    .
+                    #hasheq((C . #hasheq((green . 4) (white . 5)))
+                            (D . #hasheq((green . 4) (white . 5)))
+                            (F . #hasheq((green . 4) (white . 5)))))
+                   (C
+                    .
+                    #hasheq((D . #hasheq((green . 4) (white . 5)))
+                            (E . #hasheq((green . 4) (white . 5)))))
+                   (D
+                    .
+                    #hasheq((F . #hasheq((green . 4) (white . 5)))
+                            (H . #hasheq((green . 4) (white . 5)))))
+                   (F
+                    .
+                    #hasheq((G . #hasheq((green . 4) (white . 5)))
+                            (H . #hasheq((green . 4) (white . 5)))
+                            (I . #hasheq((green . 4) (white . 5)))
+                            (J . #hasheq((green . 4) (white . 5)))))
+                   (G . #hasheq((I . #hasheq((green . 4) (white . 5)))))
+                   (I
+                    .
+                    #hasheq((J . #hasheq((green . 4) (white . 5)))
+                            (L . #hasheq((green . 4) (white . 5)))))
+                   (J
+                    .
+                    #hasheq((L . #hasheq((green . 4) (white . 5)))
+                            (M . #hasheq((green . 4) (white . 5)))))
+                   (L . #hasheq((M . #hasheq((green . 4) (white . 5)))))))
+          (height . 300)
+          (width . 400))
+  (("Amanda" "Hold-10")
+   ("Asher" "Cheat")
+   ("Albert" "Cheat")
+   ("Alex" "Buy-Now")
+   ("Alisa" "Buy-Now"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'(((("Alisa" "Amanda") ("Alex")) ("Albert" "Asher")))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (((("Amanda") ("Alisa") ("Alex")) ("Albert" "Asher")))))
+
+
+()
+((passed 0) (total 1) (partial-score 0))

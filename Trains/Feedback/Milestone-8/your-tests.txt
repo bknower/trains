@@ -1,0 +1,961 @@
+(testing /vagrant/canonical/8/xref)
+(testing /home/vagrant/new-repos/lolo/8/Tests-0/1-in.json /home/vagrant/new-repos/lolo/8/Tests-0/1-out.json)
+xtest: /vagrant/canonical/8/xref runs as 23593
+xref: invalid JSON:  JSON Colors: '("red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "gree...
+  context...:
+   body of top-level
+   /vagrant/canonical/8/xref:38:0: main
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("Atlanta" (700 550))
+            ("Boston" (700 100))
+            ("Chicago" (200 125))
+            ("Detroit" (450 100))
+            ("El Paso" (400 550))
+            ("Fresno" (0 475))
+            ("Grand Rapids" (350 0))
+            ("Huntsville" (800 500))
+            ("Orlando" (650 800))
+            ("Washington, D.C." (400 400))))
+          (connections
+           .
+           #hasheq((Atlanta . #hasheq((Orlando . #hasheq((red . 3)))))
+                   (Boston
+                    .
+                    #hasheq((Detroit . #hasheq((blue . 4) (red . 4)))
+                            (|Washington, D.C.|
+                             .
+                             #hasheq((blue . 5)
+                                     (green . 5)
+                                     (red . 5)
+                                     (white . 5)))))
+                   (Chicago
+                    .
+                    #hasheq((Fresno . #hasheq((blue . 5)))
+                            (|Grand Rapids| . #hasheq((blue . 3) (green . 3)))
+                            (|Washington, D.C.|
+                             .
+                             #hasheq((green . 4) (red . 5) (white . 3)))))
+                   (Detroit
+                    .
+                    #hasheq((|Grand Rapids| . #hasheq((green . 3)))
+                            (|Washington, D.C.|
+                             .
+                             #hasheq((blue . 4) (white . 5)))))
+                   (|El Paso|
+                    .
+                    #hasheq((Huntsville . #hasheq((green . 5) (white . 4)))
+                            (Orlando . #hasheq((blue . 4)))))
+                   (Fresno
+                    .
+                    #hasheq((|Washington, D.C.| . #hasheq((green . 5)))))
+                   (Huntsville
+                    .
+                    #hasheq((Orlando . #hasheq((blue . 3) (red . 3)))))))
+          (height . 800)
+          (width . 800))
+  (("player1" "Cheat")
+   ("player2" "Cheat")
+   ("player3" "Cheat")
+   ("player4" "Cheat"))
+  ("red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"))
+(*** expected)
+'((() ("player1" "player2" "player3" "player4")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /vagrant/canonical/8/xref)
+(testing /home/vagrant/new-repos/lolo/8/Tests-1/2-in.json /home/vagrant/new-repos/lolo/8/Tests-1/2-out.json)
+xtest: /vagrant/canonical/8/xref runs as 23596
+xref: invalid JSON:  JSON Colors: '("red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "gree...
+  context...:
+   body of top-level
+   /vagrant/canonical/8/xref:38:0: main
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("Atlanta" (700 550))
+            ("Boston" (700 100))
+            ("Chicago" (200 125))
+            ("Detroit" (450 100))
+            ("El Paso" (400 550))
+            ("Fresno" (0 475))))
+          (connections
+           .
+           #hasheq((Boston
+                    .
+                    #hasheq((Detroit . #hasheq((blue . 4) (red . 4)))))
+                   (Chicago . #hasheq((Fresno . #hasheq((blue . 5)))))))
+          (height . 800)
+          (width . 800))
+  (("player1" "Hold-10")
+   ("player2" "Buy-Now")
+   ("player3" "Buy-Now")
+   ("player4" "Hold-10")
+   ("player5" "Hold-10")
+   ("player6" "Buy-Now")
+   ("player7" "Hold-10")
+   ("player8" "Hold-10"))
+  ("red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"))
+(*** expected)
+'("error: not enough destinations")
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /vagrant/canonical/8/xref)
+(testing /home/vagrant/new-repos/lolo/8/Tests-2/3-in.json /home/vagrant/new-repos/lolo/8/Tests-2/3-out.json)
+xtest: /vagrant/canonical/8/xref runs as 23599
+xref: invalid JSON:  JSON Colors: '("red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "green" "blue" "red" "white" "gree...
+  context...:
+   body of top-level
+   /vagrant/canonical/8/xref:38:0: main
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("Atlanta" (700 550))
+            ("Boston" (700 100))
+            ("Chicago" (200 125))
+            ("Detroit" (450 100))
+            ("El Paso" (400 550))
+            ("Fresno" (0 475))
+            ("Grand Rapids" (350 0))
+            ("Huntsville" (800 500))
+            ("I" (600 200))
+            ("J" (100 300))
+            ("K" (200 204))
+            ("L" (300 250))
+            ("M" (400 100))
+            ("N" (500 280))
+            ("Orlando" (650 800))
+            ("Washington, D.C." (400 400))))
+          (connections
+           .
+           #hasheq((Atlanta . #hasheq((Orlando . #hasheq((red . 3)))))
+                   (Boston
+                    .
+                    #hasheq((Detroit . #hasheq((blue . 4) (red . 4)))
+                            (I . #hasheq((green . 4)))
+                            (|Washington, D.C.|
+                             .
+                             #hasheq((blue . 5)
+                                     (green . 5)
+                                     (red . 5)
+                                     (white . 5)))))
+                   (Chicago
+                    .
+                    #hasheq((Fresno . #hasheq((blue . 5)))
+                            (|Grand Rapids| . #hasheq((blue . 3) (green . 3)))
+                            (|Washington, D.C.|
+                             .
+                             #hasheq((green . 4) (red . 5) (white . 3)))))
+                   (Detroit
+                    .
+                    #hasheq((|Grand Rapids| . #hasheq((green . 3)))
+                            (|Washington, D.C.|
+                             .
+                             #hasheq((blue . 4) (white . 5)))))
+                   (|El Paso|
+                    .
+                    #hasheq((Huntsville . #hasheq((green . 5) (white . 4)))
+                            (Orlando . #hasheq((blue . 4)))))
+                   (Fresno
+                    .
+                    #hasheq((|Washington, D.C.| . #hasheq((green . 5)))))
+                   (Huntsville
+                    .
+                    #hasheq((I . #hasheq((blue . 3)))
+                            (Orlando . #hasheq((blue . 3) (red . 3)))))
+                   (I
+                    .
+                    #hasheq((J . #hasheq((green . 4) (white . 5)))
+                            (K . #hasheq((blue . 5) (green . 4)))
+                            (L . #hasheq((white . 3)))
+                            (M . #hasheq((blue . 4)))
+                            (N . #hasheq((green . 5)))))))
+          (height . 800)
+          (width . 800))
+  (("player1" "Hold-10")
+   ("player2" "Buy-Now")
+   ("player3" "Cheat")
+   ("player4" "Hold-10"))
+  ("red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"
+   "green"
+   "blue"
+   "red"
+   "white"))
+(*** expected)
+'(((("player1") ("player4") ("player2")) ("player3")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
